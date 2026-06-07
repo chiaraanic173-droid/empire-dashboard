@@ -18,7 +18,7 @@ function formatWeekLabel(key: string): string {
   return `${fmt(d)} – ${fmt(end)}`;
 }
 
-export function useStore(userId: 'chiara' | 'joana' | 'shared') {
+export function useStore(userId: 'chiara' | 'joana' | 'shared' | 'papa') {
   const [data, setData] = useState<DataMap>({});
   const [loaded, setLoaded] = useState(false);
   const [weekOffset, setWeekOffset] = useState(0);
