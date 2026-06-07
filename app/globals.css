@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+
 
 :root {
   --bg: #FAF6EE;
@@ -37,9 +37,9 @@ html, body { background: var(--bg); color: var(--text); font-family: 'DM Sans', 
 
 cat > ~/Downloads/empire-dashboard/app/globals.css << 'CSSEOF'
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+
 
 :root {
   --bg: #FAF6EE;
@@ -73,9 +73,9 @@ html, body { background: var(--bg); color: var(--text); font-family: 'DM Sans', 
 .empire-textarea { background: #FFFDF7; border: 1px solid var(--border); border-radius: 8px; padding: 12px; color: var(--text); width: 100%; resize: vertical; font- no 
 cat > ~/Downloads/empire-dashboard/app/globals.css << 'CSSEOF'
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+
 
 :root {
   --bg: #FAF6EE;
@@ -116,3 +116,6 @@ html, body { background: var(--bg); color: var(--text); font-family: 'DM Sans', 
 .divide-y > * + * { border-top: 1px solid var(--border); }
 .animate-fade-in { animation: fadeIn 0.4s ease; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
