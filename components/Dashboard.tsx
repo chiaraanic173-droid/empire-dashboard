@@ -18,7 +18,7 @@ const TABS = [
   { id: 'together', label: 'Together', emoji: '👑' },
   { id: 'chiara', label: 'Chiara', emoji: '🌹' },
   { id: 'joana', label: 'Joana', emoji: '🔮' },
-  { id: 'papa', label: 'Papa', emoji: '👨‍💼' },
+  { id: 'papa', label: 'Papa', emoji: '👔' },
   { id: 'content', label: 'Content', emoji: '🎬' },
   { id: 'monthly', label: 'Monthly', emoji: '🗓️' },
   { id: 'social', label: 'Social
@@ -44,7 +44,7 @@ const TABS = [
   { id: 'together', label: 'Together', emoji: '👑' },
   { id: 'chiara', label: 'Chiara', emoji: '🌹' },
   { id: 'joana', label: 'Joana', emoji: '🔮' },
-  { id: 'papa', label: 'Papa', emoji: '👨‍💼' },
+  { id: 'papa', label: 'Papa', emoji: '👔' },
   { id: 'content', label: 'Content', emoji: '🎬' },
   { id: 'monthly', label: 'Monthly', emoji: '🗓️' },
   { id: 'social', label: 'Social', emoji: '📈' },
